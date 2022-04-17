@@ -14,4 +14,4 @@
 1. 目录结构应该为/站点目录/usr/plugin/AdminHitokoto/Plugin.php(否则会加载出错)
 
 # 发现bug?
-提交issue或在[我的Blog](https://brokenpoems.cf/)上评论留言
+提交issue或在[我的Blog](https://brokenpoems.cf/archives/59/)上评论留言
