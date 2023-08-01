@@ -39,7 +39,7 @@ class AdminHitokoto_Plugin implements Typecho_Plugin_Interface
     public static function config(Typecho_Widget_Helper_Form $form)
     {
         // 一言API设置
-        $api_url = new Typecho_Widget_Helper_Form_Element_Text('api_url', NULL, 'https://v1.hitokoto.cn/', _t('一言API'));
+        $api_url = new Typecho_Widget_Helper_Form_Element_Text('api_url', NULL, 'http://v1.hitokoto.cn/', _t('一言API'));
         $form->addInput($api_url);
         
         // 句子类型设置
